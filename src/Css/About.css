@@ -1,0 +1,64 @@
+
+.StepperWrap{
+    @apply md:stepper max-md:flex-col max-md:items-center max-md:w-5/6 mx-auto
+}
+
+.StepperIcon{
+    @apply h-8 w-8
+}
+
+.StepperTitle{
+    @apply ml-2 pl-2
+}
+
+.StepperTitle p {
+    @apply stepper-head-text text-[13px]
+    /* PC */
+    xl:text-base
+}
+
+.StepperTitle span {
+    @apply text-gray-500 text-[10px]
+    /* PC */
+    xl:text-sm
+}
+
+/* Card Content */
+
+.ContentWrap{
+    @apply w-full h-60 flex justify-around items-center max-md:hidden
+    /* Pc */
+    xl:h-80
+}
+
+.Content{
+    @apply max-w-2xl w-5/6 bg-white border  border-gray-200 rounded-lg shadow-md p-8
+    /* PC */
+    xl:p-14
+}
+
+.Content p {
+    @apply mb-2 font-bold tracking-tight text-gray-700 text-lg
+    /* PC */
+    xl:text-2xl 
+}
+
+.Content span{
+    @apply font-normal text-gray-600 text-sm
+    /* Pc */
+    xl:text-base
+}
+
+/* Card Content Mobile */
+.MobileContent{
+    @apply p-7 w-80
+}
+
+.MobileContent div {
+    @apply border px-7 py-5 border-gray-200 rounded-lg shadow-md
+    text-gray-600 text-sm
+}
+
+.MobileContent p {
+    @apply mb-2 text-base font-bold text-gray-700
+}

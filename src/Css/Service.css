@@ -1,0 +1,54 @@
+.Dialog{
+    @apply rounded-2xl overflow-hidden p-0 max-w-7xl shadow-lg mx-auto h-auto w-[94%] mt-2
+    /* Tablet , Pc */
+    md:w-11/12 md:mt-8 
+}
+
+/* 서비스 반영사례 Content */
+.ServiceContentWrap{
+    @apply flex flex-col
+    /* Tablet */
+    md:flex-row 
+}
+
+/* Img */
+.ServiceContentImg{
+    @apply relative flex-none w-full h-48
+    /* Tablet , Pc */
+    md:w-2/5 md:h-auto 
+}
+
+
+.ServiceContentImg img{
+    @apply absolute inset-0 h-full w-full object-cover
+}
+
+/* Text */
+.ServiceContentTextWrap{
+    @apply p-1
+    /* Tablet , Pc */
+    md:p-8 
+}
+
+.ServiceContentText{
+    @apply py-4
+    /* Tablet , Pc */
+    md:py-9
+}
+
+.TabMenu{
+    @apply flex items-end mb-6 space-x-2 text-xs
+    /* Tablet , Pc */
+    md:text-sm 
+}
+
+.TabBtn{
+    @apply border font-semibold  px-8 py-2 rounded-md  hover:bg-black hover:text-white
+}
+
+/* Text Box */
+.TabTextBox{
+    @apply border p-2 h-48 overflow-y-auto rounded-md text-sm 
+    /* Tablet , Pc */
+    md:text-base
+}

@@ -1,0 +1,44 @@
+.footerWrap{
+    @apply p-4 bg-white rounded-lg shadow 
+    /* Tablet */
+    md:px-6 md:py-8
+}
+
+.footerMobile{
+    @apply sm:flex sm:items-center sm:justify-between
+}
+
+//Logo
+.logoWrap{
+    @apply flex items-center mb-4 sm:mb-0
+}
+
+.logoimg{
+    @apply mr-3 h-8 .logoimg{
+}
+
+.name{
+    @apply self-center text-2xl font-semibold witespace-nowrap dark:text-black 
+}
+
+.footerMobile ul {
+    @apply flex flex-wrap items-center mb-6 text-sm text-gray-500 dark:text-gray-400
+    /* Mobile */
+    sm:mb-0
+}
+
+hr{
+    @apply my-6 border-gray-200 dark:border-gray-700 
+    /* Mobile */
+    sm:mx-auto
+}
+
+/* CapyRight */
+.CapyRight span {
+    @apply block text-sm text-gray-500 dark:text-gray-400 py-10
+    /* Mobile */
+    sm:text-center 
+}
+.CapyRight a {
+    @apply hover:underline
+}
