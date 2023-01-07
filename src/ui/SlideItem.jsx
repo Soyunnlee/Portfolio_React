@@ -23,7 +23,7 @@ export function SlideItem(props) {
           <p class="ItmContent">{content}</p>
           <button
             type="button"
-            class="ItmBtn"
+            class="ItmBtn bg-black"
             onClick={() => {
               console.log(url);
               window.open(url, "_blank");
