@@ -29,7 +29,7 @@ function Contact(props) {
                   @soxxy95@naver.com
                 </div>
                 <div class="px-6 text-center mt-2 font-light text-sm">
-                  <p>Frontend, Publising, UI/UX Design</p>
+                  <p>Frontend, Publishing, UI/UX Design</p>
                 </div>
                 <hr class="mt-8" />
                 <div class="flex p-4">

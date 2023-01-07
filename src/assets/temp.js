@@ -18,7 +18,7 @@ import sita from "../assets/images/sita.png";
 export const About = [
   {
     id: 0,
-    label: "TAB Front-enginer",
+    label: "TAB Front-engineer",
     date: `2021.03 - 2022.10`,
     description:
     "프론트엔드 개발을 맡으며 렌딩페이지, 가이드페이지 디자인과 퍼블리싱 사이트 개발을 맡아 진행했습니다.",

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../Css/Grid.css";
 import "../Css/Experince.css";
 
-import { Flip, Fade } from "react-reveal";
+import { Flip } from "react-reveal";
 
 function Experince(props) {
   return (
@@ -10,7 +10,7 @@ function Experince(props) {
       <div className="Container">
         {/* Title */}
         <div className="WebTitleWrapRow">
-          <div className="Title">Experince</div>
+          <div className="Title">Experience</div>
         </div>
 
         {/* Card */}
@@ -32,9 +32,7 @@ function Experince(props) {
                   <div>
                     <p class="TextT"> Rest Api </p>
                     <p class="TextB">
-                      {" "}
-                      Rest Api를 활용해 Table 데이터 시각화와 사내 Search Api 를
-                      이용하여 검색기능을 구현한 경험이 있습니다.{" "}
+                      Rest(Restful) API 기반의 데이터를 Fetch API로 핸들링하며 고차함수를 활용한 필터링으로 시각화할 수 있습니다.
                     </p>
                   </div>
                 </div>
@@ -47,7 +45,6 @@ function Experince(props) {
                   <div class="">
                     <p class="TextT"> UI UX 기능명세서, 화면설계서 </p>
                     <p class="TextB">
-                      {" "}
                       주식 거래소 Web 기능 명세서와 UI & UX 화면설계서 작성
                       경험이 있습니다.
                     </p>

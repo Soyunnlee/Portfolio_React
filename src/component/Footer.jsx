@@ -7,8 +7,6 @@ import cssIcon from "../assets/images/css.png";
 
 //css
 
-// import "../Css/Footer.css"
-
 export function Footer() {
   return (
     <footer className="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 ">
@@ -27,13 +25,13 @@ export function Footer() {
 
       {/* capyright */}
       <div className="CopyRight">
-        <div className="flex">
+        {/* <div className="flex">
           <img src={reactIcon} className="w-10 " />
           <img src={scssIcon} className="w-10 ml-2" />
           <img src={jsIcon} className="w-10 ml-2" />
           <img src={htmlIcon} className="w-10 ml-2" />
           <img src={cssIcon} className="w-10 ml-2" />
-        </div>
+        </div> */}
         <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400 py-10">
           © 2022 <a href="https://flowbite.com/" class="hover:underline"></a>.
           Lee so yun. All rights reserved.

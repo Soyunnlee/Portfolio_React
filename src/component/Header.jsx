@@ -25,20 +25,20 @@ function Header(props) {
           <div className="NavListWrap">
             <ul className="NavList">
               {menu.map((menu, index) => (
-                <Link
+                <li
+                  className={classNames("NavItm", {
+                    ActiveMenu: index == activeNum,
+                  })}
+                  style={{ transition: "all 0.3s" }}
+                >
+                  <Link
                   key={index} to={index} spy smooth
                   onSetActive={activeMenu}
                   className={"flex items-center"}
-                >
-                  <li
-                    className={classNames("NavItm", {
-                      ActiveMenu: index == activeNum,
-                    })}
-                    style={{ transition: "all 0.3s" }}
                   >
                     {menu}
-                  </li>
-                </Link>
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>
@@ -71,29 +71,24 @@ function Header(props) {
               class="dropdown-menu MobileListWrap"
               aria-labelledby="dropdownMenuButton1"
             >
-              <Link to="0" spy smooth>
-                <li class="dropdown-item MobileListItm">Home</li>
-              </Link>
-              <Link to="1" spy smooth>
-                {" "}
-                <li class="dropdown-item MobileListItm">WebSite</li>
-              </Link>
-              <Link to="2" spy smooth>
-                {" "}
-                <li class="dropdown-item MobileListItm">Experince</li>
-              </Link>
-              <Link to="3" spy smooth>
-                {" "}
-                <li class="dropdown-item MobileListItm">About</li>
-              </Link>
-              <Link to="4" spy smooth>
-                {" "}
-                <li class="dropdown-item MobileListItm">Service</li>
-              </Link>
-              <Link to="5" spy smooth>
-                {" "}
-                <li class="dropdown-item MobileListItm">Contact</li>
-              </Link>              
+              <li class="dropdown-item MobileListItm">
+                <Link to="0" spy smooth>Home</Link>
+              </li>
+              <li class="dropdown-item MobileListItm">  
+                <Link to="1" spy smooth>WebSite</Link>
+              </li>
+              <li class="dropdown-item MobileListItm">
+                <Link to="2" spy smooth>Experince</Link>
+              </li>
+              <li class="dropdown-item MobileListItm">
+                <Link to="3" spy smooth>About</Link>
+              </li>
+              <li class="dropdown-item MobileListItm">
+                <Link to="4" spy smooth>Service</Link>
+              </li>
+              <li class="dropdown-item MobileListItm">
+                <Link to="5" spy smooth>Contact</Link>              
+              </li>
             </ul>
           </div>
         </div>

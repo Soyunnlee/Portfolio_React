@@ -17,7 +17,7 @@ function Main(props) {
                 <div class="TextRWrap">
                     <div>
                         <p class="TextR"> <span class="font-light">&lt;</span> coder <span class="font-light">&gt;</span> </p>
-                        <dd>Front end developer writs clean, <br/>efficient code</dd>
+                        <dd>Front end developer writs clean code, <br/>efficient code</dd>
                     </div>
                 </div>
 
