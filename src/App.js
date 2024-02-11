@@ -1,36 +1,37 @@
-import "./App.css";
-import "flowbite";
+import './App.css';
+import 'flowbite';
 
 //Component
-import Header from "./component/Header";
-import Main from "./component/Main";
-import About from "./component/About";
-import Service from "./component/Service";
+import Header from './component/Header';
+import Main from './component/Main';
+import About from './component/About';
+import Service from './component/Service';
 
-import WebSite from "./component/WebSite";
-import Experince from "./component/Experince";
-import Contact from "./component/Contact";
+import WebSite from './component/WebSite';
+import Experince from './component/Experince';
+import Contact from './component/Contact';
 
-import TopButton from "./ui/TopButton";
-import { Footer } from "./component/Footer";
+import TopButton from './ui/TopButton';
+import { Footer } from './component/Footer';
 
-import "../src/Css/Grid.css"
-
+import '../src/Css/Grid.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Main />
-      <WebSite />
-      <Experince/>
-      <About />
-      <Service />
-      <Contact />
-      <Footer />
-      <TopButton />
-    </div>
-  );
+	return (
+		<div className="App">
+			<Header />
+			<img src="../assets/images/zara.publising.png" alt="" />
+			<Main />
+			<img src="./assets/images/zara.publising.png" alt="" />
+			<WebSite />
+			<Experince />
+			<About />
+			<Service />
+			<Contact />
+			<Footer />
+			<TopButton />
+		</div>
+	);
 }
 
 export default App;

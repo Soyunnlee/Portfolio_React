@@ -14,11 +14,11 @@ function webSite(props) {
     <div id="1" className="WebSiteWrap">
       <div className="Container">
 
-          <div class="WebTitleWrapRow">
+          <div class="WebTitleWrapRow"> 
             <div className="Title">
                 WEB SITE
             </div>
-          </div>
+          </div> 
 
           <div >
             <SlideContainer WebSite={WebSite} />
