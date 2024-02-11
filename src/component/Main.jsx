@@ -29,115 +29,105 @@ function Main(props) {
 		// 		</div>
 		// 	</section>
 		// </div>
-		<div className="section over-hide " id="0">
-			{/* <div class="section over-hide"> */}
+		<div className=" h-screen" id="0">
 			<div class="">
-				<div class="row full-height justify-content-center">
-					{/* Btn */}
-					<div class="">
-						<div class="border-[2px] border-red-900">
-							<input
-								class="pricing"
-								type="checkbox"
-								id="pricing"
-								name="pricing"
-							/>
-							<label for="pricing">
-								<span class="block-diff">
-									kayaking<span class="float-right">camping</span>
-								</span>
-							</label>
+				{/* Button */}
+				<input
+					class="pricing border border-blue-900 absolute -z-10"
+					type="checkbox"
+					id="pricing"
+					name="pricing"
+				/>
+				<label for="pricing">
+					<span class="block-diff border border-blue-900 -z-10">
+						kayaking<span class="float-right">camping</span>
+					</span>
+				</label>
+				{/* Button */}
 
-							<div class="card-3d-wrap h-screen">
-								<div class="card-3d-wrapper">
-									<div class="card-front">
-										<div class="pricing-wrap">
-											<h4 class="mb-5">Kayaking</h4>
-											<img src="zara.png" alt="" />
-											<h2 class="mb-2">
-												<sup>$</sup>39 / 4<sup>hrs</sup>
-											</h2>
-											<p class="mb-4">per person</p>
-											<p class="mb-1">
-												<i class="uil uil-location-pin-alt size-22"></i>
-											</p>
-											<p class="mb-4">Drina, Serbia</p>
-											<a href="#0" class="link">
-												Choose Date
-											</a>
-											<div class="img-wrap img-2">
-												<img
-													src="https://assets.codepen.io/1462889/sea.png"
-													alt=""
-												/>
-											</div>
-											<div class="img-wrap img-1">
-												<img
-													src="https://assets.codepen.io/1462889/kayak.png"
-													alt=""
-												/>
-											</div>
-											<div class="img-wrap img-3">
-												<img
-													src="https://assets.codepen.io/1462889/water.png"
-													alt=""
-												/>
-											</div>
-											<div class="img-wrap img-6">
-												<img
-													src="https://assets.codepen.io/1462889/Stone.png"
-													alt=""
-												/>
-											</div>
-										</div>
-									</div>
-									<div class="card-back">
-										<div class="pricing-wrap">
-											<h4 class="mb-5">Camping</h4>
-											<h2 class="mb-2">
-												<sup>$</sup>29 / 8<sup>hrs</sup>
-											</h2>
-											<p class="mb-4">per person</p>
-											<p class="mb-1">
-												<i class="uil uil-location-pin-alt size-22"></i>
-											</p>
-											<p class="mb-4">Tara, Serbia</p>
-											<a href="#0" class="link">
-												Choose Date
-											</a>
-											<div class="img-wrap img-2">
-												<img
-													src="https://assets.codepen.io/1462889/grass.png"
-													alt=""
-												/>
-											</div>
-											<div class="img-wrap img-4">
-												<img
-													src="https://assets.codepen.io/1462889/camp.png"
-													alt=""
-												/>
-											</div>
-											<div class="img-wrap img-5">
-												<img
-													src="https://assets.codepen.io/1462889/Ivy.png"
-													alt=""
-												/>
-											</div>
-											<div class="img-wrap img-7">
-												<img
-													src="https://assets.codepen.io/1462889/IvyRock.png"
-													alt=""
-												/>
-											</div>
-										</div>
-									</div>
+				{/* Flip Card Wrap */}
+				<div class="card-3d-wrap mx-auto border-[10px] border-red-900">
+					<div class="card-3d-wrapper">
+						{/* Kayaking */}
+						<div class="card-front">
+							<div class="pricing-wrap">
+								<h4 class="mb-5">Kayaking</h4>
+								<h2 class="mb-2">
+									<sup>$</sup>39 / 4<sup>hrs</sup>
+								</h2>
+								<p class="mb-4">per person</p>
+								<p class="mb-1">
+									<i class="uil uil-location-pin-alt size-22"></i>
+								</p>
+								<p class="mb-4">Drina, Serbia</p>
+								<a href="#0" class="link">
+									Choose Date
+								</a>
+								<div class="img-wrap img-2">
+									<img src="https://assets.codepen.io/1462889/sea.png" alt="" />
+								</div>
+								<div class="img-wrap img-1">
+									<img
+										src="https://assets.codepen.io/1462889/kayak.png"
+										alt=""
+									/>
+								</div>
+								<div class="img-wrap img-3">
+									<img
+										src="https://assets.codepen.io/1462889/water.png"
+										alt=""
+									/>
+								</div>
+								<div class="img-wrap img-6">
+									<img
+										src="https://assets.codepen.io/1462889/Stone.png"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+						{/* Camping */}
+						<div class="card-back">
+							<div class="pricing-wrap">
+								<h4 class="mb-5">Camping</h4>
+								<h2 class="mb-2">
+									<sup>$</sup>29 / 8<sup>hrs</sup>
+								</h2>
+								<p class="mb-4">per person</p>
+								<p class="mb-1">
+									<i class="uil uil-location-pin-alt size-22"></i>
+								</p>
+								<p class="mb-4">Tara, Serbia</p>
+								<a href="#0" class="link">
+									Choose Date
+								</a>
+								<div class="img-wrap img-2">
+									<img
+										src="https://assets.codepen.io/1462889/grass.png"
+										alt=""
+									/>
+								</div>
+								<div class="img-wrap img-4">
+									<img
+										src="https://assets.codepen.io/1462889/camp.png"
+										alt=""
+									/>
+								</div>
+								<div class="img-wrap img-5">
+									<img src="https://assets.codepen.io/1462889/Ivy.png" alt="" />
+								</div>
+								<div class="img-wrap img-7">
+									<img
+										src="https://assets.codepen.io/1462889/IvyRock.png"
+										alt=""
+									/>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				{/*  */}
 			</div>
-			{/* </div> */}
 		</div>
 	);
 }

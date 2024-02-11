@@ -1,99 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
-
-/* Pc 이미지 */
-.MainImg {
-	@apply bg-[url('https://i.esdrop.com/d/f/KRQCESGJO3/zCsvzlauEY.jpg')]
-    xl:bg-[url('https://i.esdrop.com/d/f/KRQCESGJO3/uVe6CWM4Fz.jpg')] 
-    /* Mobile */
-    bg-contain bg-top bg-no-repeat 
-    /* Tablet */
-    md:bg-auto md:bg-top 
-    /* Pc */
-    xl:bg-center xl:bg-contain;
-	overflow: hidden;
-	height: 100%;
-}
-
-.TextBoxWrap {
-	@apply h-screen w-[100%] m-auto flex flex-col justify-center
-    /* Tablet */
-    md:flex-row md:space-x-24
-    /* PC */
-    xl:space-x-[550px];
-}
-
-/* TextBox 왼쪽 Designer*/
-.TextLWrap {
-	@apply text-center h-[50%] flex justify-center pt-[130px]
-    /* Tablet */
-    md:pt-[165px] md:w-[50%] md:justify-end
-   /* Pc */
-   xl:pt-[217px];
-}
-
-.TextL {
-	font-family: 'Poppins', sans-serif;
-	@apply text-[#333333] text-[2rem] font-bold
-    /* Tablet */
-    md:text-[2.5rem]
-    /* Pc */
-    xl:font-semibold xl:text-[3.4rem];
-}
-
-.TextLWrap dd {
-	@apply text-[#757575] text-sm font-light mt-2
-    /* Tablet */
-    md:text-[0.9rem] md:mt-1
-    /* Pc */
-    xl:font-[300] xl:text-[1rem] xl:mt-0;
-}
-
-/* TextBox 오른쪽 Coder */
-.TextRWrap {
-	@apply text-center h-[50%] flex justify-center pt-[160px]
-    /* Tablet */
-    md:pt-[370px] md:h-[100%] md:w-[50%] md:justify-start md:pl-[70px] 
-   /* Pc */
-   xl:pt-[26%];
-}
-
-.TextR {
-	font-family: 'Inter', sans-serif;
-	@apply text-[#333333] text-[2rem] font-bold
-    /* Tablet */
-    md:text-[2.5rem]
-    /* Pc */
-    xl:text-[3.4rem] xl:font-extrabold;
-}
-
-.TextRWrap dd {
-	@apply text-[#757575] text-sm font-light text-right 
-    /* Tablet */
-    md:text-[0.9rem] md:mt-1
-    /* Pc */
-    xl:font-[300] xl:text-[1rem] xl:mt-0;
-}
-
-/* Flip Card */
-
-.link {
-	color: #c4c3ca;
-}
-.link:hover {
-	color: #ffeba7;
-}
 .over-hide {
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 .size-22 {
 	font-size: 22px;
 }
 .section {
-	/* position: relative; */
-	/* width: 100%; */
-	/* z-index: 1; */
-	/* display: block; */
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	display: block;
 }
 .full-height {
 	min-height: 100vh;
@@ -103,11 +18,8 @@
 	position: absolute;
 	left: -9999px;
 }
-
-/* Enable Btn  */
 .pricing:checked + label,
 .pricing:not(:checked) + label {
-	/* @apply bg-black; */
 	position: relative;
 	display: block;
 	text-align: center;
@@ -129,10 +41,8 @@
 	color: #fff;
 	text-align: left;
 }
-/* Disiable btn */
 .pricing:checked + label:before,
 .pricing:not(:checked) + label:before {
-	/* @apply bg-black; */
 	position: absolute;
 	content: '';
 	z-index: -2;
@@ -166,16 +76,8 @@
 }
 
 .card-3d-wrap {
-	@apply w-full absolute border border-red-900 h-screen;
-	/* position: relative; */
-	/* width: 340px; */
-	/* max-width: calc(100% - 20px); */
-	height: 510px;
-
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	/* perspective: 1000px; */
-	/* margin-top: 90px; */
+	@apply mt-[90px];
+	perspective: 1000px;
 }
 .card-3d-wrapper {
 	width: 100%;
@@ -463,18 +365,4 @@
 	pointer-events: auto;
 	transform: translate3d(0, 0, 35px) perspective(100px) scale(1);
 	transition: transform 400ms 1300ms ease, opacity 300ms 1300ms ease;
-}
-
-.logo {
-	position: fixed;
-	top: 30px;
-	right: 30px;
-	display: block;
-	z-index: 100;
-	transition: all 250ms linear;
-}
-.logo img {
-	height: 26px;
-	width: auto;
-	display: block;
 }

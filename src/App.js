@@ -19,10 +19,8 @@ import '../src/Css/Grid.css';
 function App() {
 	return (
 		<div className="App">
-			<Header />
-			<img src="../assets/images/zara.publising.png" alt="" />
+			{/* <Header /> */}
 			<Main />
-			<img src="./assets/images/zara.publising.png" alt="" />
 			<WebSite />
 			<Experince />
 			<About />
