@@ -75,9 +75,21 @@
 	mix-blend-mode: difference;
 }
 
+/* 버튼을 FlipCardWrap 위에 위치시키기 */
+.pricing + label {
+	position: absolute; /* 가장 가까운 위치 지정된 조상에 대해 절대 위치 지정 */
+	z-index: 10; /* FlipCardWrap 위에 있도록 보장 */
+	top: 20px; /* 필요에 따라 조정 */
+	left: 50%; /* 수평 중앙에 배치 */
+	transform: translateX(-50%); /* 중앙 정렬 */
+}
+
 .card-3d-wrap {
-	@apply mt-[90px];
+	/* @apply mt-[90px]; */
 	perspective: 1000px;
+	width: 100vw; /* 전체 뷰포트 너비를 차지하도록 설정 */
+	height: 100vh; /* 전체 뷰포트 높이를 차지하도록 설정 */
+	position: relative; /* 스택 컨텍스트를 설정 */
 }
 .card-3d-wrapper {
 	width: 100%;
