@@ -29,10 +29,9 @@ function Main(props) {
 		// 		</div>
 		// 	</section>
 		// </div>
-		<div className=" h-screen" id="0">
-			<div class="">
-				{/* Button */}
-				<input
+		<div className=" h-screen overflow-hidden " id="0">
+	{/* Button */}
+	<input
 					class="pricing border border-blue-900 absolute -z-10"
 					type="checkbox"
 					id="pricing"
@@ -46,7 +45,9 @@ function Main(props) {
 				{/* Button */}
 
 				{/* Flip Card Wrap */}
-				<div class="card-3d-wrap mx-auto border-[10px] border-red-900">
+				<div class="card-3d-wrap mx-auto ">
+
+
 					<div class="card-3d-wrapper">
 						{/* Kayaking */}
 						<div class="card-front">
@@ -127,7 +128,7 @@ function Main(props) {
 					</div>
 				</div>
 				{/*  */}
-			</div>
+
 		</div>
 	);
 }

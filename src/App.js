@@ -19,7 +19,7 @@ import '../src/Css/Grid.css';
 function App() {
 	return (
 		<div className="App">
-			{/* <Header /> */}
+			<Header />
 			<Main />
 			<WebSite />
 			<Experince />
