@@ -2,7 +2,7 @@ import React from 'react';
 import '../Css/Header.css';
 import { Link } from 'react-scroll';
 import classNames from 'classnames';
-import ZaraImage from '../assets/images/zara.png';
+import Logo from "../assets/images/Logo.png"
 
 const menu = ['Home', 'WebSite', 'Experince', 'About', 'Service', 'Contact'];
 
@@ -12,31 +12,20 @@ function Header(props) {
 		setActiveNum(to);
 	};
 	return (
-		<div className="HeaderWrap absolute">
-			<nav className="bg-transparent border-gray-200 px-2 sm:px-4 py-2.5 border-b  ">
-				<div className="NavPosition">
-					<div className="Logo">
-						<svg class="fill-slate-600">
-							{' '}
-							<path d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm5-2.25A.75.75 0 017.75 7h4.5a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-4.5a.75.75 0 01-.75-.75v-4.5z" />
-						</svg>
-						<svg class="fill-slate-500">
-							{' '}
-							<path d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm5-2.25A.75.75 0 017.75 7h4.5a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-4.5a.75.75 0 01-.75-.75v-4.5z" />
-						</svg>
-						<svg class="fill-slate-400">
-							{' '}
-							<path d="M2 10a8 8 0 1116 0 8 8 0 01-16 0zm5-2.25A.75.75 0 017.75 7h4.5a.75.75 0 01.75.75v4.5a.75.75 0 01-.75.75h-4.5a.75.75 0 01-.75-.75v-4.5z" />
-						</svg>
+		<div className="fixed z-50 w-screen px-12 ">
+			<nav className="bg-transparent py-2.5 ">
+				<div className="flex items-center justify-between">
+					<div className="flex space-x-3 text-xl font-semibold text-black">
+						<img src={Logo} alt="Logo" className="w-[8rem]"/>
 					</div>
 
 					{/* Tablet , Pc MenuList */}
-					<div className="NavListWrap">
-						<ul className="NavList">
+					<div className="hidden md:block md:w-auto">
+						<ul className="flex flex-row p-4 space-x-8 text-sm font-medium ">
 							{menu.map((menu, index) => (
 								<li
 									className={classNames('NavItm', {
-										ActiveMenu: index == activeNum,
+										ActiveMenu: index === activeNum,
 									})}
 									style={{ transition: 'all 0.3s' }}
 								>
@@ -56,7 +45,7 @@ function Header(props) {
 					</div>
 
 					{/* Mobile Menu */}
-					<div className="MobileMenu hidden max-md:block">
+					<div className="hidden MobileMenu max-md:block">
 						<button
 							class="NavBtn"
 							itespace-nowrap
