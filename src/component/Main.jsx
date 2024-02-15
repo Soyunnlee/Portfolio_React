@@ -16,7 +16,11 @@ function Main(props) {
         name="pricing"
       />
       {/* Design Btn */}
-      <label for="pricing" className="w-40 bg-red-900 h-30 ml-96">
+      <label
+        for="pricing"
+        className="bg-red-900 "
+        Style="transform: translate(-20%, -50%);top: 16%;left: 30%;"
+      >
         Design
       </label>
 
@@ -27,7 +31,11 @@ function Main(props) {
         id="pricing"
         name="pricing"
       />
-      <label for="pricing" className="ml-10 bg-blue-900 h-50">
+      <label
+        for="pricing"
+        className="bg-blue-900 "
+        Style="transform: translate(-20%, -50%);top: 16%;left: 70%;"
+      >
         Develop
       </label>
 
