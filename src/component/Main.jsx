@@ -1,11 +1,16 @@
 import '../Css/Main.css';
 import '../Css/Grid.css';
+// Design
 import DesignBg from '../assets/images/DesignBg.png';
 import Tree from '../assets/images/Tree.png';
 import DevelopBtnBg from '../assets/images/DevelopBtnBg.png';
 import FigmaIcon from '../assets/images/FigmaIcon.png';
 import PsIcon from '../assets/images/PsIcon.png';
 import CloudIcon from '../assets/images/CloudIcon.png';
+import AiIcon from '../assets/images/AiIcon.png';
+// Develop
+import DevelopBg from '../assets/images/DevelopBg.png';
+import VsCodeGif from '../assets/images/VsCodeGif.gif';
 
 function Main(props) {
   return (
@@ -63,7 +68,7 @@ function Main(props) {
       {/* Flip Card Wrap */}
       <div class='card-3d-wrap mx-auto '>
         <div class='card-3d-wrapper'>
-          {/* Kayaking */}
+          {/* Design */}
           <div class='card-front'>
             <div class='pricing-wrap'>
               {/* Background */}
@@ -80,38 +85,31 @@ function Main(props) {
               <div class='img-wrap img-6'>
                 <img src={CloudIcon} alt='' />
               </div>
+              <div class='img-wrap img-8'>
+                <img src={AiIcon} alt='' />
+              </div>
             </div>
           </div>
-          {/* Camping */}
+          {/* Develop */}
           <div class='card-back'>
             <div class='pricing-wrap'>
-              <h4 class='mb-5'>Camping</h4>
-              <h2 class='mb-2'>
-                <sup>$</sup>29 / 8<sup>hrs</sup>
-              </h2>
-              <p class='mb-4'>per person</p>
-              <p class='mb-1'>
-                <i class='uil uil-location-pin-alt size-22'></i>
-              </p>
-              <p class='mb-4'>Tara, Serbia</p>
-              <a href='#0' class='link'>
-                Choose Date
-              </a>
+              {/* Bg */}
               <div class='img-wrap img-2'>
-                <img src='https://assets.codepen.io/1462889/grass.png' alt='' />
+                <img src={DevelopBg} alt='' />
               </div>
-              <div class='img-wrap img-4'>
+              <img src={VsCodeGif} alt='' class='img-9 img-wrap w-20' />
+              {/* <div class='img-wrap img-4'>
                 <img src='https://assets.codepen.io/1462889/camp.png' alt='' />
-              </div>
-              <div class='img-wrap img-5'>
+              </div> */}
+              {/* <div class='img-wrap img-5'>
                 <img src='https://assets.codepen.io/1462889/Ivy.png' alt='' />
-              </div>
-              <div class='img-wrap img-7'>
+              </div> */}
+              {/* <div class='img-wrap img-7'>
                 <img
                   src='https://assets.codepen.io/1462889/IvyRock.png'
                   alt=''
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -226,6 +226,7 @@
   height: auto;
   display: block;
 }
+
 .img-1 {
   position: absolute;
   display: block;
@@ -270,17 +271,17 @@
 }
 .pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-3 {
   opacity: 0;
-  transform: translate3d(-50px, 5px, 55px) perspective(100px) scale(0.4);
+  transform: translate3d(50px, 5px, -55px) perspective(100px) scale(0.4);
   pointer-events: none;
   transition: transform 400ms ease, opacity 200ms 150ms ease;
 }
 .img-6 {
   position: absolute;
   display: block;
-  right: 450px;
-  top: 270%;
+  right: 26%;
+  top: 298%;
   z-index: 5;
-  width: calc(6.8%);
+  width: calc(7.3%);
   transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
   opacity: 1;
   pointer-events: auto;
@@ -292,6 +293,44 @@
   transform: translate3d(0, 0, 25px) perspective(100px) scale(0.4);
   pointer-events: none;
   transition: transform 400ms ease, opacity 200ms 150ms ease;
+}
+
+.img-8 {
+  position: absolute;
+  display: block;
+  right: 33%;
+  top: 407%;
+  z-index: 5;
+  width: calc(6.3%);
+  transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+  transition: transform 300ms 1300ms ease, opacity 200ms 1300ms ease;
+}
+
+.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-8 {
+  opacity: 0;
+  transform: translate3d(0, 0, 25px) perspective(100px) scale(0.4);
+  pointer-events: none;
+  transition: transform 400ms ease, opacity 200ms 150ms ease;
+}
+
+.img-9 {
+  position: absolute;
+  display: block;
+  left: 41%;
+  top: 270%;
+  width: calc(18%);
+  opacity: 1;
+  transform: translate3d(0, 0, 45px) scale(1);
+  /* 변형 유지 */
+  transition: opacity 200ms 150ms ease, transform 400ms ease;
+}
+
+/* .pricing이 체크된 상태일 때만 이 규칙이 적용됩니다. */
+.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-9 {
+  opacity: 1;
+  transform: translate3d(0, 0, 45px) scale(1);
 }
 
 .img-4 {
