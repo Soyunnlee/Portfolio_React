@@ -4,46 +4,32 @@ import DesignBg from "../assets/images/DesignBg.png";
 
 function Main(props) {
   return (
-    // <div className="MainWrap" id="0">
-    // 	<section class="MainImg">
-    // 		<div class="TextBoxWrap">
-    // 			<div class="TextLWrap">
-    // 				<div>
-    // 					<p class="TextL">designerdd </p>
-    // 					<dd>UI UX design and design systems</dd>
-    // 				</div>
-    // 			</div>
-
-    // 			<div class="TextRWrap">
-    // 				<div>
-    // 					<p class="TextR">
-    // 						{' '}
-    // 						<span class="font-light">&lt;</span> coder{' '}
-    // 						<span class="font-light">&gt;</span>{' '}
-    // 					</p>
-    // 					<dd>
-    // 						Front end developer writs clean code, <br />
-    // 						efficient code
-    // 					</dd>
-    // 				</div>
-    // 			</div>
-    // 		</div>
-    // 	</section>
-    // </div>
-    <div className="h-screen overflow-hidden " id="0">
+    <div
+      className="h-screen overflow-hidden border-[0px] border-red-900"
+      id="0"
+    >
       {/* Button */}
       <input
-        class="pricing border border-blue-900 absolute -z-10"
+        class="pricing hidden"
         type="checkbox"
         id="pricing"
         name="pricing"
       />
-      <label for="pricing">
-        <span class="block-diff border border-blue-900 -z-10">
-          kayaking<span class="float-right">camping</span>
-        </span>
+      {/* Design Btn */}
+      <label for="pricing" className="w-40 bg-red-900 h-30 ml-96">
+        Design
       </label>
-      {/* Button */}
+
+      {/* Develop Btn */}
+      <input
+        class="pricing hidden"
+        type="checkbox"
+        id="pricing"
+        name="pricing"
+      />
+      <label for="pricing" className="ml-10 bg-blue-900 h-50">
+        Develop
+      </label>
 
       {/* Flip Card Wrap */}
       <div class="card-3d-wrap mx-auto ">
