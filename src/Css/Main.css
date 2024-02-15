@@ -229,10 +229,10 @@
 .img-1 {
   position: absolute;
   display: block;
-  left: -160px;
-  top: -50px;
+  left: 430px;
+  top: 400px;
   z-index: 5;
-  width: calc(80% + 160px);
+  width: calc(10%);
   transform: translate3d(0, 0, 45px) perspective(100px);
   opacity: 1;
   pointer-events: auto;
@@ -259,10 +259,10 @@
 .img-3 {
   position: absolute;
   display: block;
-  right: -20px;
-  top: -40px;
+  right: 570px;
+  top: 250px;
   z-index: 5;
-  width: calc(60% + 20px);
+  width: calc(6%);
   transform: translate3d(0, 0, 55px) perspective(100px) scale(1);
   opacity: 1;
   pointer-events: auto;
@@ -277,15 +277,16 @@
 .img-6 {
   position: absolute;
   display: block;
-  right: -20px;
-  bottom: -55px;
+  right: 450px;
+  top: 270%;
   z-index: 5;
-  width: calc(20% + 30px);
+  width: calc(6.8%);
   transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
   opacity: 1;
   pointer-events: auto;
   transition: transform 300ms 1300ms ease, opacity 200ms 1300ms ease;
 }
+
 .pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-6 {
   opacity: 0;
   transform: translate3d(0, 0, 25px) perspective(100px) scale(0.4);
