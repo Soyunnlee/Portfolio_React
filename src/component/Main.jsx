@@ -2,6 +2,10 @@ import '../Css/Main.css';
 import '../Css/Grid.css';
 
 import Mainbg from './Mainbg';
+import HoverDesignBg from '../assets/images/HoverDesignBg.png';
+import HoverDevelopBg from '../assets/images/HoverDevelopBg.png';
+import DesignObject from '../assets/images/DesignObject.png';
+import DevelopObject from '../assets/images/DevelopObject.png';
 
 function Main(props) {
   return (
@@ -11,45 +15,21 @@ function Main(props) {
     >
       <Mainbg />
       {/* Fix Hover Card */}
-      <div className='top-0 bottom-0 left-0 right-0 flex items-center justify-center '>
+      <div className='flex justify-center space-x-[9rem] relative bottom-80 left-0'>
         <div class='card'>
           <div class='wrapper'>
-            <img
-              src='https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg'
-              class='cover-image'
-              alt=''
-            />
+            <img src={HoverDesignBg} class='cover-image' alt='' />
           </div>
-          <img
-            src='https://ggayane.github.io/css-experiments/cards/dark_rider-title.png'
-            class='title'
-            alt=''
-          />
-          <img
-            src='https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp'
-            class='character'
-            alt=''
-          />
-        </div>
 
+          <img src={DesignObject} class='character' alt='' />
+        </div>
+        {/* Develop Card */}
         <div class='card'>
           <div class='wrapper'>
-            <img
-              src='https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg'
-              class='cover-image'
-              alt=''
-            />
+            <img src={HoverDevelopBg} class='cover-image' alt='' />
           </div>
-          <img
-            src='https://ggayane.github.io/css-experiments/cards/force_mage-title.png'
-            class='title'
-            alt=''
-          />
-          <img
-            src='https://ggayane.github.io/css-experiments/cards/force_mage-character.webp'
-            class='character'
-            alt=''
-          />
+
+          <img src={DevelopObject} class='character' alt='' />
         </div>
       </div>
     </div>
