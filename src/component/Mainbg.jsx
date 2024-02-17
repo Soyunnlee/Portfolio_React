@@ -87,7 +87,7 @@ const Mainbg = () => {
               <div class='img-wrap img-6'>
                 <img src={CloudIcon} alt='' />
               </div>
-              <div class='img-wrap img-8'>
+              <div class='img-wrap img-13'>
                 <img src={AiIcon} alt='' />
               </div>
             </div>

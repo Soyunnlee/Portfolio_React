@@ -18,7 +18,7 @@ import '../src/Css/Grid.css';
 
 function App() {
   return (
-    <div className=''>
+    <div className='bg-violat-900'>
       <Header />
       <Main />
       <WebSite />

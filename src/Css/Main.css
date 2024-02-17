@@ -177,8 +177,8 @@
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   overflow: hidden;
-  /* width: 100%; */
-  transform: translate3d(0, 0, 30px) perspective(100px);
+  width: 100%;
+  transform: translate3d(0, 0, 15px) perspective(100px);
 }
 .img-3 {
   position: absolute;
@@ -203,6 +203,54 @@
     transform 400ms ease,
     opacity 200ms 150ms ease;
 }
+
+.img-4 {
+  position: absolute;
+  display: block;
+  left: 18.5%;
+  top: 148%;
+  z-index: 5;
+  width: calc(5%);
+  transform: translate3d(0, 0, 45px) perspective(100px) scale(0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 400ms ease,
+    opacity 200ms 150ms ease;
+}
+
+.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-4 {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate3d(0, 0, 45px) perspective(100px) scale(1);
+  transition:
+    transform 400ms 1200ms ease,
+    opacity 300ms 1200ms ease;
+}
+
+.img-5 {
+  position: absolute;
+  display: block;
+  right: 55%;
+  top: 151%;
+  z-index: 6;
+  width: calc(5%);
+  transform: translate3d(0, 0, 35px) perspective(100px) scale(0.5) rotate(0deg);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 400ms 100ms ease,
+    opacity 200ms 250ms ease;
+}
+.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-5 {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate3d(0, 0, 35px) perspective(100px) scale(1) rotate(10deg);
+  transition:
+    transform 400ms 1300ms ease,
+    opacity 300ms 1300ms ease;
+}
+
 .img-6 {
   position: absolute;
   display: block;
@@ -227,94 +275,6 @@
     opacity 200ms 150ms ease;
 }
 
-.img-8 {
-  position: absolute;
-  display: block;
-  right: 33%;
-  top: 407%;
-  z-index: 5;
-  width: calc(6.3%);
-  transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
-  opacity: 1;
-  pointer-events: auto;
-  transition:
-    transform 300ms 1300ms ease,
-    opacity 200ms 1300ms ease;
-}
-
-.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-8 {
-  opacity: 0;
-  transform: translate3d(0, 0, 25px) perspective(100px) scale(0.4);
-  pointer-events: none;
-  transition:
-    transform 400ms ease,
-    opacity 200ms 150ms ease;
-}
-
-.img-9 {
-  position: absolute;
-  display: block;
-  left: 41%;
-  top: 270%;
-  width: calc(18%);
-  opacity: 1;
-  transform: translate3d(0, 0, 45px) scale(1);
-  /* 변형 유지 */
-  transition:
-    opacity 200ms 150ms ease,
-    transform 400ms ease;
-}
-
-/* .pricing이 체크된 상태일 때만 이 규칙이 적용됩니다. */
-.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-9 {
-  opacity: 1;
-  transform: translate3d(0, 0, 45px) scale(1);
-}
-
-.img-4 {
-  position: absolute;
-  display: block;
-  left: 18.5%;
-  top: 148%;
-  z-index: 5;
-  width: calc(5%);
-  transform: translate3d(0, 0, 45px) perspective(100px) scale(0.5);
-  opacity: 0;
-  pointer-events: none;
-  transition:
-    transform 400ms ease,
-    opacity 200ms 150ms ease;
-}
-.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-4 {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translate3d(0, 0, 45px) perspective(100px) scale(1);
-  transition:
-    transform 400ms 1200ms ease,
-    opacity 300ms 1200ms ease;
-}
-.img-5 {
-  position: absolute;
-  display: block;
-  right: 55%;
-  top: 151%;
-  z-index: 6;
-  width: calc(5%);
-  transform: translate3d(0, 0, 35px) perspective(100px) scale(0.5) rotate(0deg);
-  opacity: 0;
-  pointer-events: none;
-  transition:
-    transform 400ms 100ms ease,
-    opacity 200ms 250ms ease;
-}
-.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-5 {
-  opacity: 1;
-  pointer-events: auto;
-  transform: translate3d(0, 0, 35px) perspective(100px) scale(1) rotate(10deg);
-  transition:
-    transform 400ms 1300ms ease,
-    opacity 300ms 1300ms ease;
-}
 .img-7 {
   position: absolute;
   display: block;
@@ -359,6 +319,25 @@
   transition:
     transform 400ms 1300ms ease,
     opacity 300ms 1300ms ease;
+}
+
+.img-9 {
+  position: absolute;
+  display: block;
+  left: 41%;
+  top: 270%;
+  width: calc(18%);
+  opacity: 1;
+  transform: translate3d(0, 0, 45px) scale(1);
+  /* 변형 유지 */
+  transition:
+    opacity 200ms 150ms ease,
+    transform 400ms ease;
+}
+
+.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-9 {
+  opacity: 1;
+  transform: translate3d(0, 0, 45px) scale(1);
 }
 
 .img-10 {
@@ -429,7 +408,108 @@
     transform 400ms 1300ms ease,
     opacity 300ms 1300ms ease;
 }
+
+/* Ai Icon */
+.img-13 {
+  position: absolute;
+  display: block;
+  right: 33%;
+  top: 442%;
+  z-index: 5;
+  width: calc(7.3%);
+  transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+  transition:
+    transform 300ms 1300ms ease,
+    opacity 200ms 1300ms ease;
+}
+
+.pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-13 {
+  opacity: 0;
+  transform: translate3d(0, 0, 25px) perspective(100px) scale(0.4);
+  pointer-events: none;
+  transition:
+    transform 400ms ease,
+    opacity 200ms 150ms ease;
+}
+/*  */
+
 /*#endregion */
+
+.card {
+  width: calc(14%);
+  display: flex;
+  align-items: flex-end;
+  perspective: 2500px;
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.wrapper {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.card:hover .wrapper {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper::before,
+.wrapper::after {
+  content: '';
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+}
+.wrapper::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+.wrapper::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+
+.card:hover .wrapper::before,
+.wrapper::after {
+  opacity: 1;
+}
+
+.card:hover .wrapper::after {
+  height: 120px;
+}
+.title {
+  width: 100%;
+  transition: transform 0.5s;
+}
+.card:hover .title {
+  transform: translate3d(0%, -50px, 100px);
+}
 
 .card {
   width: calc(14%);
@@ -510,10 +590,11 @@
   opacity: 0;
   transition: all 0.5s;
   position: absolute;
+  transform: scale(1);
   z-index: -1;
 }
 
 .card:hover .character {
   opacity: 1;
-  transform: translate3d(0%, -30%, 100px);
+  transform: translate3d(0%, -45%, 100px) scale(1.5);
 }
