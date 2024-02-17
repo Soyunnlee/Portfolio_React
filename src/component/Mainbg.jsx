@@ -4,10 +4,10 @@ import '../Css/Main.css';
 import DesignBg from '../assets/images/DesignBg.png';
 import Tree from '../assets/images/Tree.png';
 import DevelopBtnBg from '../assets/images/DevelopBtnBg.png';
-import FigmaIcon from '../assets/images/FigmaIcon.png';
-import PsIcon from '../assets/images/PsIcon.png';
-import CloudIcon from '../assets/images/CloudIcon.png';
-import AiIcon from '../assets/images/AiIcon.png';
+import Ball1 from '../assets/images/Ball1.png';
+import Ball2 from '../assets/images/Ball2.png';
+import Ball3 from '../assets/images/Ball3.png';
+// import AiIcon from '../assets/images/AiIcon.png';
 // Develop
 import DevelopBg from '../assets/images/DevelopBg.png';
 import VsCodeGif from '../assets/images/VsCodeGif.gif';
@@ -73,16 +73,16 @@ const Mainbg = () => {
                 <img src={DesignBg} alt='' />
               </div>
               {/* FigmaIcon */}
-              {/* <div class='img-wrap img-1'>
-                <img src={FigmaIcon} alt='' class='w-7' />
+              <div class='img-wrap img-1'>
+                <img src={Ball1} alt='' />
               </div>
               <div class='img-wrap img-3'>
-                <img src={PsIcon} alt='' />
+                <img src={Ball2} alt='' />
               </div>
               <div class='img-wrap img-6'>
-                <img src={CloudIcon} alt='' />
+                <img src={Ball3} alt='' />
               </div>
-              <div class='img-wrap img-13'>
+              {/* <div class='img-wrap img-13'>
                 <img src={AiIcon} alt='' />
               </div> */}
             </div>
