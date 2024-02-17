@@ -18,6 +18,7 @@ import CIcon from '../assets/images/CIcon.png';
 import SvelteIcon from '../assets/images/SvelteIcon.png';
 import SassIcon from '../assets/images/SassIcon.png';
 import TailwindIcon from '../assets/images/TailwindIcon.png';
+import TransParent from '../assets/images/TransParent.png';
 
 const Mainbg = () => {
   return (
@@ -72,7 +73,7 @@ const Mainbg = () => {
                 <img src={DesignBg} alt='' />
               </div>
               {/* FigmaIcon */}
-              <div class='img-wrap img-1'>
+              {/* <div class='img-wrap img-1'>
                 <img src={FigmaIcon} alt='' class='w-7' />
               </div>
               <div class='img-wrap img-3'>
@@ -83,7 +84,7 @@ const Mainbg = () => {
               </div>
               <div class='img-wrap img-13'>
                 <img src={AiIcon} alt='' />
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Develop */}
@@ -95,8 +96,7 @@ const Mainbg = () => {
               </div>
               {/* Icon */}
               <img src={VsCodeGif} alt='' class='img-9 img-wrap w-20' />
-
-              <div class='img-wrap img-4'>
+              {/* <div class='img-wrap img-4'>
                 <img src={JavaScriptIcon} alt='' />
               </div>
               <div class='img-wrap img-5'>
@@ -117,7 +117,7 @@ const Mainbg = () => {
 
               <div class='img-wrap img-12'>
                 <img src={TailwindIcon} alt='' />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
