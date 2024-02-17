@@ -30,18 +30,15 @@ const Mainbg = () => {
         name='pricing'
       />
       {/* Design Btn */}
-      <label
-        for='pricing'
-        Style='transform: translate(-20%, -50%);top: 16%;left: 30%;'
-      >
+      <label for='pricing' Style='top:15%; left: 17%;'>
         <div
-          class='w-[11rem] h-[4.4rem] justify-center flex flex-row space-x-7 rounded-lg shadow-md cursor-pointer py-3 '
+          class='w-[12rem] h-[5.2rem] justify-center flex flex-row space-x-7 rounded-lg cursor-pointer py-3  shadow-[inset_0_0_10px_#454551]'
           Style='background: linear-gradient(45deg, #191932, #0C0C18);'
         >
-          <div class='text-white text-sm '>Designer.</div>
+          <div class='text-white w-full pl-4'>Designer.</div>
 
           <div class=' h-full flex items-end'>
-            <img src={Tree} alt='' class='w-[3.2rem]' />
+            <img src={Tree} alt='' class='w-[9rem] pr-2 pb-2' />
           </div>
         </div>
       </label>
@@ -52,15 +49,12 @@ const Mainbg = () => {
         id='pricing'
         name='pricing'
       />
-      <label
-        for='pricing'
-        Style='transform: translate(-20%, -50%);top: 16%;left: 70%;'
-      >
+      <label for='pricing' Style='top:15%; right: 17%;'>
         <div
-          class='w-[11rem] h-[4.4rem] justify-center flex flex-row rounded-lg shadow-md cursor-pointer pt-3 relative'
+          class='w-[12rem] h-[5.2rem] justify-center flex flex-row rounded-lg cursor-pointer pt-3 relative shadow-[inset_0_0_10px_#454551]'
           Style='background: linear-gradient(45deg, #191932, #0C0C18);'
         >
-          <div class='text-white text-sm w-full pl-4'>Developer.</div>
+          <div class='text-white w-full pl-4'>Developer.</div>
 
           <div class='absolute right-0 bottom-0'>
             <img src={DevelopBtnBg} alt='' class='w-[6.5rem]' />
@@ -101,6 +95,7 @@ const Mainbg = () => {
               </div>
               {/* Icon */}
               <img src={VsCodeGif} alt='' class='img-9 img-wrap w-20' />
+
               <div class='img-wrap img-4'>
                 <img src={JavaScriptIcon} alt='' />
               </div>

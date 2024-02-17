@@ -235,7 +235,7 @@
   top: 151%;
   z-index: 6;
   width: calc(5%);
-  transform: translate3d(0, 0, 35px) perspective(100px) scale(0.5) rotate(0deg);
+  transform: translate3d(0, 0, 35px) perspective(100px) scale(0.5);
   opacity: 0;
   pointer-events: none;
   transition:
@@ -245,7 +245,7 @@
 .pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-5 {
   opacity: 1;
   pointer-events: auto;
-  transform: translate3d(0, 0, 35px) perspective(100px) scale(1) rotate(10deg);
+  transform: translate3d(0, 0, 35px) perspective(100px) scale(1);
   transition:
     transform 400ms 1300ms ease,
     opacity 300ms 1300ms ease;
