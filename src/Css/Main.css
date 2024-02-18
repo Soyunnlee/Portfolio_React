@@ -454,6 +454,10 @@
 }
 /*#endregion */
 
+.cardwrap {
+  @apply flex justify-center space-x-[54rem] relative bottom-20 left-0 pc:space-x-[66rem];
+}
+
 .card {
   width: calc(14%);
   display: flex;
@@ -464,7 +468,6 @@
 .cover-image {
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
 }
 
 .wrapper {

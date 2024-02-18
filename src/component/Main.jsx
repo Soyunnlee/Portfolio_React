@@ -15,7 +15,7 @@ function Main(props) {
     >
       <Mainbg />
       {/* Fix Hover Card */}
-      <div class='flex justify-center space-x-[55rem] relative bottom-20 left-0 pc:space-x-[64rem] pc:bottom-25'>
+      <div class='cardwrap'>
         <div class='card'>
           <div class='wrapper'>
             <img src={HoverDesignBg} class='cover-image' alt='' />
