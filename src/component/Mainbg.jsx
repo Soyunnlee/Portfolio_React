@@ -7,18 +7,9 @@ import DevelopBtnBg from '../assets/images/DevelopBtnBg.png';
 import Ball1 from '../assets/images/Ball1.png';
 import Ball2 from '../assets/images/Ball2.png';
 import Ball3 from '../assets/images/Ball3.png';
-// import AiIcon from '../assets/images/AiIcon.png';
 // Develop
 import DevelopBg from '../assets/images/DevelopBg.png';
 import VsCodeGif from '../assets/images/VsCodeGif.gif';
-import JavaScriptIcon from '../assets/images/JavaScriptIcon.png';
-import ReactIcon from '../assets/images/ReactIcon.png';
-import TypeScriptIcon from '../assets/images/TypeScriptIcon.png';
-import CIcon from '../assets/images/CIcon.png';
-import SvelteIcon from '../assets/images/SvelteIcon.png';
-import SassIcon from '../assets/images/SassIcon.png';
-import TailwindIcon from '../assets/images/TailwindIcon.png';
-import TransParent from '../assets/images/TransParent.png';
 
 const Mainbg = () => {
   return (
@@ -88,9 +79,6 @@ const Mainbg = () => {
               <div class='img-wrap img-6'>
                 <img src={Ball3} alt='' />
               </div>
-              {/* <div class='img-wrap img-13'>
-                <img src={AiIcon} alt='' />
-              </div> */}
             </div>
           </div>
           {/* Develop */}
@@ -102,28 +90,6 @@ const Mainbg = () => {
               </div>
               {/* Icon */}
               <img src={VsCodeGif} alt='' class='img-9 img-wrap w-20' />
-              {/* <div class='img-wrap img-4'>
-                <img src={JavaScriptIcon} alt='' />
-              </div>
-              <div class='img-wrap img-5'>
-                <img src={ReactIcon} alt='' />
-              </div>
-              <div class='img-wrap img-7'>
-                <img src={TypeScriptIcon} alt='' />
-              </div>
-              <div class='img-wrap img-8'>
-                <img src={CIcon} alt='' />
-              </div>
-              <div class='img-wrap img-10'>
-                <img src={SvelteIcon} alt='' />
-              </div>
-              <div class='img-wrap img-11'>
-                <img src={SassIcon} alt='' />
-              </div>
-
-              <div class='img-wrap img-12'>
-                <img src={TailwindIcon} alt='' />
-              </div> */}
             </div>
           </div>
         </div>

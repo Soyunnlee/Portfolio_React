@@ -146,10 +146,10 @@
 }
 
 .img-1 {
+  @apply pc:top-[232%] top-[218%];
   position: absolute;
   display: block;
   left: 40%;
-  top: 218%;
   z-index: 5;
   width: calc(11%);
   transform: translate3d(0, 0, 45px) perspective(100px);
@@ -178,13 +178,13 @@
   border-top-right-radius: 6px;
   overflow: hidden;
   width: 100%;
-  transform: translate3d(0, 0, 15px) perspective(100px);
+  transform: translate3d(0, 0, 17px) perspective(100px);
 }
 .img-3 {
+  @apply top-[308%] pc:top-[360%];
   position: absolute;
   display: block;
   right: 31%;
-  top: 308%;
   z-index: 5;
   width: calc(13%);
   transform: translate3d(0, 0, 55px) perspective(100px) scale(1);
@@ -260,10 +260,9 @@
 }
 
 .img-6 {
+  @apply right-[50%] top-[439%] pc:top-[550%];
   position: absolute;
   display: block;
-  right: 50%;
-  top: 439%;
   z-index: 5;
   width: calc(8.5%);
   transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
@@ -334,10 +333,9 @@
 }
 
 .img-9 {
+  @apply top-[282%] left-[41%] xl:top-[352%];
   position: absolute;
   display: block;
-  left: 41%;
-  top: 270%;
   width: calc(18%);
   opacity: 1;
   transform: translate3d(0, 0, 45px) scale(0);
