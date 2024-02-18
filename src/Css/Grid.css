@@ -1,57 +1,52 @@
-
 /* 컨테이너 그리드 */
 .Container {
   max-width: 1200px;
-    @apply w-5/6 mx-auto
+  @apply w-[40%] mx-auto bg-gray-900;
 }
 
 /* 메인 */
-.MainWrap{
-  @apply 
-  h-screen
+.MainWrap {
+  @apply h-screen
   /* Tablet */
   md:h-[62vh]
   /* Pc */
   xl:h-screen;
 }
 
-
 /* 웹사이트 */
 .WebSiteWrap {
-  @apply h-full flex items-start pt-[28%]
+  @apply h-full flex items-start pt-[28%] bg-black
   /* Tablet */
   md:h-[71vh] md:pt-[14%] 
   /* Pc */
   xl:h-screen xl:items-center xl:pt-0;
 }
 
-
 /* 경험 */
-.ExperinceWrap {    
+.ExperinceWrap {
   @apply pt-[21%] h-full flex 
   /* Tablet */
   md:pt-[12%] md:h-[65vh]
   /* Pc */
-  xl:pt-[3%]  xl:items-center xl:h-screen
-  ;
+  xl:pt-[3%]  xl:items-center xl:h-screen;
 }
 
 /* 경력 About */
-.AboutWrap{
+.AboutWrap {
   @apply pt-[33%] h-screen flex 
   /* Tablet */
   md:pt-[20%] md:h-[65vh]
   /* Pc */
-  xl:pt-[5%]  xl:items-center xl:h-screen
+  xl:pt-[5%]  xl:items-center xl:h-screen;
 }
 
 /* 서비스 반영사례 */
-.ServiceWrap{
+.ServiceWrap {
   @apply pt-[23%] h-screen 
   /* Tablet */
   md:pt-[17%] md:h-[71vh]
   /* Pc */
-  xl:pt-[10%]  xl:h-screen
+  xl:pt-[10%]  xl:h-screen;
 }
 
 /* Contact */
@@ -59,13 +54,5 @@
   @apply h-[89vh] pt-[23%] flex items-center
    /* Tablet */
    md:h-[66vh] md:pt-[10%]
-   xl:h-screen xl:pt-[5%]
-  ;
+   xl:h-screen xl:pt-[5%];
 }
-
-
-
-
-
-
-

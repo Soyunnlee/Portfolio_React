@@ -1,23 +1,23 @@
-import React from "react";
-import Slider from "react-slick";
+import React from 'react';
+import Slider from 'react-slick';
 
-import "../Css/Grid.css";
-import { SlideItem } from "./SlideItem";
+import '../Css/Grid.css';
+import { SlideItem } from './SlideItem';
 
 export function SlideContainer({ WebSite }) {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1300,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
@@ -25,8 +25,8 @@ export function SlideContainer({ WebSite }) {
       {
         breakpoint: 900,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2,
         },
       },
@@ -41,14 +41,14 @@ export function SlideContainer({ WebSite }) {
     ],
   };
   return (
-    <div class="">
-    <Slider {...settings}>
-      {WebSite.map((site) => (
-        <div>
-          <SlideItem site={site}/>
-        </div>
-      ))}
-    </Slider>
+    <div class=''>
+      <Slider {...settings}>
+        {WebSite.map((site) => (
+          <div>
+            <SlideItem site={site} />
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 }
