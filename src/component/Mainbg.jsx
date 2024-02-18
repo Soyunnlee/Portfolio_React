@@ -24,16 +24,18 @@ const Mainbg = () => {
       {/* Design Btn */}
       <label for='pricing' Style='top:15%; left: 17%;'>
         <div
-          class='w-[12rem] h-[5.2rem] justify-center flex flex-row space-x-7 rounded-lg cursor-pointer py-3  shadow-[inset_0_0_10px_#454551] pc:w-[16rem] pc:h-[7rem] pc:py-5'
+          class='w-[12rem] h-[5.2rem] justify-center flex flex-row space-x-7 rounded-lg cursor-pointer py-3  shadow-[inset_0_0_10px_#454551] pc:w-[16rem] pc:h-[7rem] pc:py-5 hd:w-[22rem] hd:h-[10rem] hd:py-7 hd:shadow-[inset_0_0_18px_#454551] '
           Style='background: linear-gradient(45deg, #191932, #0C0C18);'
         >
-          <div class='text-white w-full pl-4 pc:text-xl pc:pl-6'>Designer.</div>
+          <div class='text-white w-full pl-4 pc:text-xl pc:pl-6 hd:pl-9 hd:text-3xl'>
+            Designer.
+          </div>
 
           <div class=' h-full flex items-end'>
             <img
               src={Tree}
               alt=''
-              class='w-[9rem] pr-2 pb-2 pc:w-[12rem] pc:pr-4'
+              class='w-[9rem] pr-2 pb-2 pc:w-[12rem] hd:w-[14rem] pc:pr-4 ;'
             />
           </div>
         </div>
@@ -47,15 +49,19 @@ const Mainbg = () => {
       />
       <label for='pricing' Style='top:15%; right: 17%;'>
         <div
-          class='w-[12rem] h-[5.2rem] justify-center flex flex-row rounded-lg cursor-pointer pt-3 relative shadow-[inset_0_0_10px_#454551] pc:w-[16rem] pc:h-[7rem] pc:pt-4'
+          class='w-[12rem] h-[5.2rem] justify-center flex flex-row rounded-lg cursor-pointer pt-3 relative shadow-[inset_0_0_10px_#454551] pc:w-[16rem] pc:h-[7rem] pc:pt-4 hd:w-[22rem] hd:h-[10rem] hd:py-7 hd:shadow-[inset_0_0_18px_#454551]'
           Style='background: linear-gradient(45deg, #191932, #0C0C18);'
         >
-          <div class='text-white w-full pl-4 pc:text-xl pc:pl-6'>
+          <div class='text-white w-full pl-4 pc:text-xl pc:pl-6 hd:pl-9 hd:text-3xl'>
             Developer.
           </div>
 
           <div class='absolute right-0 bottom-0'>
-            <img src={DevelopBtnBg} alt='' class='w-[6.5rem] pc:w-[10em]' />
+            <img
+              src={DevelopBtnBg}
+              alt=''
+              class='w-[6.5rem] pc:w-[10em] hd:w-[13rem]'
+            />
           </div>
         </div>
       </label>

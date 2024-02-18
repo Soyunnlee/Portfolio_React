@@ -146,7 +146,7 @@
 }
 
 .img-1 {
-  @apply pc:top-[232%] top-[218%];
+  @apply pc:top-[232%] top-[218%] hd:top-[312%];
   position: absolute;
   display: block;
   left: 40%;
@@ -181,7 +181,7 @@
   transform: translate3d(0, 0, 17px) perspective(100px);
 }
 .img-3 {
-  @apply top-[308%] pc:top-[360%];
+  @apply top-[308%] pc:top-[360%] hd:top-[503%];
   position: absolute;
   display: block;
   right: 31%;
@@ -260,7 +260,7 @@
 }
 
 .img-6 {
-  @apply right-[50%] top-[439%] pc:top-[550%];
+  @apply right-[50%] top-[439%] pc:top-[550%] hd:top-[718%] hd:right-[51%];
   position: absolute;
   display: block;
   z-index: 5;
@@ -333,7 +333,7 @@
 }
 
 .img-9 {
-  @apply top-[282%] left-[41%] xl:top-[352%];
+  @apply top-[282%] left-[41%] xl:top-[352%] hd:top-[465%];
   position: absolute;
   display: block;
   width: calc(18%);
@@ -455,7 +455,7 @@
 /*#endregion */
 
 .cardwrap {
-  @apply flex justify-center space-x-[54rem] relative bottom-20 left-0 pc:space-x-[66rem] hd:space-x-[88rem] hd:bottom-24;
+  @apply flex justify-center space-x-[54rem] relative bottom-20 left-0 pc:space-x-[66rem] hd:space-x-[88rem] hd:bottom-[8rem];
 }
 
 .card {
