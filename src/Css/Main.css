@@ -455,11 +455,12 @@
 /*#endregion */
 
 .cardwrap {
-  @apply flex justify-center space-x-[54rem] relative bottom-20 left-0 pc:space-x-[66rem];
+  @apply flex justify-center space-x-[54rem] relative bottom-20 left-0 pc:space-x-[66rem] hd:space-x-[88rem] hd:bottom-24;
 }
 
 .card {
-  width: calc(14%);
+  @apply w-[calc(14%)] hd:w-[calc(15%)];
+  /* width: calc(14%); */
   display: flex;
   align-items: flex-end;
   perspective: 2500px;
