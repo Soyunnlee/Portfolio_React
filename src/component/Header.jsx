@@ -12,16 +12,16 @@ function Header(props) {
     setActiveNum(to);
   };
   return (
-    <div className='fixed z-50 w-screen px-12'>
-      <nav className='bg-transparent py-2.5 '>
+    <div className='fixed z-50 w-screen px-12 pc:px-14'>
+      <nav className='pt-5 bg-transparent pc:pt-7'>
         <div className='flex items-center justify-between'>
           <div className='flex space-x-3 text-xl font-semibold text-black'>
-            <img src={Logo} alt='Logo' className='w-[8rem]' />
+            <img src={Logo} alt='Logo' className='w-[8rem] pc:w-[10rem]' />
           </div>
 
           {/* Tablet , Pc MenuList */}
           <div className='hidden md:block md:w-auto'>
-            <ul className='flex flex-row p-4 space-x-8 text-sm font-medium '>
+            <ul className='flex flex-row p-4 space-x-8 text-sm font-medium pc:text-xl'>
               {menu.map((menu, index) => (
                 <li
                   className={classNames('NavItm', {
