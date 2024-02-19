@@ -333,7 +333,7 @@
 }
 
 .img-9 {
-  @apply top-[282%] left-[41%] xl:top-[352%] hd:top-[465%];
+  @apply top-[282%] left-[41%] pc:top-[352%] hd:top-[465%];
   position: absolute;
   display: block;
   width: calc(18%);
