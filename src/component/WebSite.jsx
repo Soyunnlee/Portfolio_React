@@ -9,15 +9,9 @@ import { SlideContainer } from '../ui/SlideContainer';
 
 function webSite(props) {
   return (
-    <div id='1' className='WebSiteWrap'>
-      <div className='Container'>
-        {/* <div class='WebTitleWrapRow'>
-          <div className='Title'>WEB SITE</div>
-        </div> */}
-
-        {/* <div> */}
+    <div id='1' className='h-[100vh] flex items-center justify-center bg-black'>
+      <div className='w-[60%] mx-auto border'>
         <SlideContainer WebSite={WebSite} />
-        {/* </div> */}
       </div>
     </div>
   );

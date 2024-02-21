@@ -46,11 +46,13 @@
 }
 /* 슬라이드 버튼 위치 */
 .slick-slider {
-  @apply mx-1 md:px-4;
+  @apply border border-red-900;
 }
 /* 도트 위치 */
 .slick-dots {
-  height: 13px;
+  /* @apply ; */
+  /* height: -20px; */
+  top: 104%;
 }
 
 /* 모든 도트의 색상 변경 */
