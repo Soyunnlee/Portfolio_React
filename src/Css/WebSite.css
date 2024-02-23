@@ -23,6 +23,16 @@
     xl:px-6;
 }
 
+.line {
+  width: 47px;
+  height: 5px;
+  transform: rotate(90deg);
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+  z-index: 3;
+}
+
 /* 슬라이드 버튼 */
 .slick-arrow {
   @apply block;
@@ -46,13 +56,13 @@
 }
 /* 슬라이드 버튼 위치 */
 .slick-slider {
-  @apply border border-red-900;
+  /* @apply border border-red-900; */
 }
 /* 도트 위치 */
 .slick-dots {
   /* @apply ; */
   /* height: -20px; */
-  top: 104%;
+  top: 105%;
 }
 
 /* 모든 도트의 색상 변경 */
