@@ -16,21 +16,11 @@
 }
 /* 사이트바로가기 버튼 */
 .ItmBtn {
-  @apply px-4 py-2.5 bg-black text-white rounded shadow-md font-medium text-xs 
+  @apply px-2 py-2.5  text-white rounded shadow-md font-medium text-xs 
     /* Tablet */
     md:px-5 
     /* Pc */
     xl:px-6;
-}
-
-.line {
-  width: 47px;
-  height: 5px;
-  transform: rotate(90deg);
-  flex: none;
-  order: 6;
-  flex-grow: 0;
-  z-index: 3;
 }
 
 /* 슬라이드 버튼 */
