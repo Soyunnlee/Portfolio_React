@@ -38,10 +38,12 @@
 
 /* 다음버튼 */
 .slick-next {
+  @apply right-[-3.5rem];
   transform: rotate(135deg);
 }
 /* 이전버튼 */
 .slick-prev {
+  @apply left-[-3.5rem];
   transform: rotate(-45deg);
 }
 /* 슬라이드 버튼 위치 */
@@ -52,7 +54,7 @@
 .slick-dots {
   /* @apply ; */
   /* height: -20px; */
-  top: 105%;
+  top: 108%;
 }
 
 /* 모든 도트의 색상 변경 */
