@@ -2,6 +2,10 @@ import React from 'react';
 import '../Css/Grid.css';
 import '../Css/Experince.css';
 import tape1 from '../assets/images/tape/tape1.png';
+import tape2 from '../assets/images/tape/tape2.png';
+import tape3 from '../assets/images/tape/tape3.png';
+import tape4 from '../assets/images/tape/tape4.png';
+import tape5 from '../assets/images/tape/tape5.png';
 
 import { Flip } from 'react-reveal';
 
@@ -22,10 +26,12 @@ function Experince(props) {
                   UI/UX를 동적으로 변화시키는 관리자 페이지 개발에 참여했습니다.
                 </p>
               </div>
-              <div class='absolute top-[-4rem] left-[-2rem]'>
-                <img src={tape1} alt='' />
+              <div class='absolute top-[-4rem] left-[-3rem]'>
+                <img src={tape1} alt='' class='w-32' />
               </div>
-              <div class='bg-red-900 w-1 h-1 absolute bottom-0 right-1'></div>
+              <div class='absolute bottom-[-4rem] right-[-3rem]'>
+                <img src={tape2} alt='' class='w-32' />
+              </div>
             </div>
 
             {/* <!-- Card 2 --> */}
@@ -38,10 +44,9 @@ function Experince(props) {
                   수행했습니다.
                 </p>
               </div>
-              <div class='absolute top-[-4rem] left-[-2rem]'>
-                <img src={tape1} alt='' />
+              <div class='absolute top-[-6.7rem] left-[-4rem]'>
+                <img src={tape4} alt='' Class='w-40' />
               </div>
-              <div class='bg-red-900 w-1 h-1 absolute bottom-0 right-1'></div>
             </div>
           </div>
         </Flip>
@@ -60,10 +65,9 @@ function Experince(props) {
                   ( Model 구현, REST API, GraphQL API )
                 </p>
               </div>
-              <div class='absolute top-[-4rem] left-[-2rem]'>
-                <img src={tape1} alt='' />
+              <div class='absolute top-[-3rem] left-[-1rem] right-[-44rem]'>
+                <img src={tape3} alt='' class='w-[28rem]' />
               </div>
-              <div class='bg-red-900 w-1 h-1 absolute bottom-0 right-1'></div>
             </div>
 
             {/* <!-- Card 5 --> */}
@@ -80,8 +84,8 @@ function Experince(props) {
                   기여할 수 있습니다.
                 </p>
               </div>
-              <div class='absolute top-[-4rem] left-[-2rem]'>
-                <img src={tape1} alt='' />
+              <div class='absolute top-[-6rem] left-[-5rem]'>
+                <img src={tape5} alt='' class='w-52' />
               </div>
               <div class='bg-red-900 w-1 h-1 absolute bottom-0 right-1'></div>
             </div>

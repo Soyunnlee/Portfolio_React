@@ -25,7 +25,7 @@ function App() {
       <Experince />
       {/* <About /> */}
       {/* <Service /> */}
-      {/* <Contact /> */}
+      <Contact />
       {/* <Footer /> */}
       <TopButton />
     </div>

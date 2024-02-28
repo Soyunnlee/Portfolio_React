@@ -4,9 +4,9 @@ import frontend_img03 from '../assets/images/frontend_img03.png';
 import frontend_img04 from '../assets/images/frontend_img04.png';
 
 // mac 이미지
-import zara from '../assets/images/zara.png';
+import zara from '../assets/images/Zara.png';
 import olive from '../assets/images/OliveYoung.png';
-import Lush from '../assets/images/lush.png';
+import Lush from '../assets/images/Lush.png';
 import vouge from '../assets/images/vouge.png';
 import sulbing from '../assets/images/sulbing.png';
 import miyoung from '../assets/images/miyoung.png';
