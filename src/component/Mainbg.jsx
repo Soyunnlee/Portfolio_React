@@ -95,7 +95,7 @@ const Mainbg = () => {
                 <img src={DevelopBg} alt='' />
               </div>
               {/* Icon */}
-              <img src={VsCodeGif} alt='' class='img-9 img-wrap w-20' />
+              <img src={VsCodeGif} alt='' class='img-9 img-wrap' />
             </div>
           </div>
         </div>

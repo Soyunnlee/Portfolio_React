@@ -22,11 +22,11 @@ function App() {
       <Header />
       <Main />
       <WebSite />
-      <Experince />
-      <About />
-      <Service />
-      <Contact />
-      <Footer />
+      {/* <Experince /> */}
+      {/* <About /> */}
+      {/* <Service /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
       <TopButton />
     </div>
   );

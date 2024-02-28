@@ -1,5 +1,5 @@
 .footerWrap{
-    @apply p-4 bg-white rounded-lg shadow 
+    @apply p-4 bg-black rounded-lg shadow 
     /* Tablet */
     md:px-6 md:py-8
 }
@@ -8,7 +8,6 @@
     @apply sm:flex sm:items-center sm:justify-between
 }
 
-//Logo
 .logoWrap{
     @apply flex items-center mb-4 sm:mb-0
 }

@@ -4,13 +4,11 @@ import frontend_img03 from '../assets/images/frontend_img03.png';
 import frontend_img04 from '../assets/images/frontend_img04.png';
 
 // mac 이미지
-import zara from '../assets/images/Zara.png';
+import zara from '../assets/images/zara.png';
 import olive from '../assets/images/OliveYoung.png';
-import lush from '../assets/images/Lush.png';
-import chanel from '../assets/images/chanel.png';
+import Lush from '../assets/images/lush.png';
 import vouge from '../assets/images/vouge.png';
 import sulbing from '../assets/images/sulbing.png';
-import bera from '../assets/images/bera.png';
 import miyoung from '../assets/images/miyoung.png';
 import sita from '../assets/images/sita.png';
 import SvelteTailwind from '../assets/images/SvelteTailwind.png';
@@ -111,7 +109,7 @@ export const WebSite = [
     title: 'Lush',
     content: 'Html ,JavaScript, Css',
     contentLine2: 'Disign: 100% | Develop : 100%',
-    imgSrc: lush,
+    imgSrc: Lush,
     url: 'https://lushbucket.netlify.app/',
   },
   {
