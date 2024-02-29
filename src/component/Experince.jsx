@@ -65,8 +65,8 @@ function Experince(props) {
                   ( Model 구현, REST API, GraphQL API )
                 </p>
               </div>
-              <div class='absolute top-[-3rem] left-[-1rem] right-[-44rem]'>
-                <img src={tape3} alt='' class='w-[28rem]' />
+              <div class='absolute top-[-3rem] left-[-1rem] right-[-44rem] hd:top-[-4rem] hd:left-[-2rem]'>
+                <img src={tape3} alt='' class='w-[28rem] hd:w-[45rem]' />
               </div>
             </div>
 
