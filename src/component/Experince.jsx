@@ -44,8 +44,8 @@ function Experince(props) {
                   수행했습니다.
                 </p>
               </div>
-              <div class='absolute top-[-6.7rem] left-[-4rem]'>
-                <img src={tape4} alt='' Class='w-40' />
+              <div class='absolute top-[-6.7rem] left-[-4rem] hd:top-[-10rem] hd:left-[-7rem]'>
+                <img src={tape4} alt='' Class='w-40 hd:w-64' />
               </div>
             </div>
           </div>
