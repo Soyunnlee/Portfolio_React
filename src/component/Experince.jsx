@@ -13,10 +13,10 @@ function Experince(props) {
   return (
     <div className='flex items-center justify-center h-screen bg-black' id='2'>
       {/* Card */}
-      <div class='pt-12 flex flex-row space-x-36'>
+      <div class='pt-12 flex flex-row space-x-36 pc:space-x-52 hd:space-x-72'>
         {/* Card Grup Left */}
         <Flip left duration={1300}>
-          <div className='space-y-20'>
+          <div className='space-y-28 hd:space-y-40'>
             {/* Card 1 */}
             <div className='ExperinceCardWrap'>
               <div class=' ExperinceCardWrap '>
@@ -26,11 +26,11 @@ function Experince(props) {
                   UI/UX를 동적으로 변화시키는 관리자 페이지 개발에 참여했습니다.
                 </p>
               </div>
-              <div class='absolute top-[-4rem] left-[-3rem]'>
-                <img src={tape1} alt='' class='w-32' />
+              <div class='absolute top-[-4rem] left-[-3rem] hd:top-[-7rem] hd:left-[-5rem]'>
+                <img src={tape1} alt='' class='w-32 hd:w-52' />
               </div>
-              <div class='absolute bottom-[-4rem] right-[-3rem]'>
-                <img src={tape2} alt='' class='w-32' />
+              <div class='absolute bottom-[-4rem] right-[-3rem] hd:bottom-[-6rem] hd:right-[-5rem]'>
+                <img src={tape2} alt='' class='w-32 hd:w-52' />
               </div>
             </div>
 
@@ -54,7 +54,7 @@ function Experince(props) {
 
         {/* Card Grup Right */}
         <Flip right duration={1300}>
-          <div className='space-y-20'>
+          <div className='space-y-28 hd:space-y-40'>
             {/* <!-- Card 4 --> */}
             <div className='ExperinceCardWrap'>
               <div class=' ExperinceCardWrap '>

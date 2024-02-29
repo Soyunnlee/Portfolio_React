@@ -1,51 +1,15 @@
-.CardWrap {
-  @apply flex flex-col justify-center gap-3 pt-3 md:gap-4 md:flex-row xl:gap-10;
-}
-
-/* 카드 세로 간격 */
-.SpaceCol {
-  @apply space-y-3 md:space-y-5 xl:space-y-9;
-}
-
-.Card {
-  @apply flex flex-col relative justify-center items-center w-[400px] h-[256px]  px-6 rounded-lg space-y-6 bg-[#141517] shadow-[inset_0_0_9px_#343443];
-}
-
-.subTitle {
-  @apply text-base font-bold text-white;
-}
-
-.Img {
-  @apply w-12 h-12 md:w-16 md:h-16 xl:w-20 xl:h-20;
-}
-
-/* Content */
-.TextT {
-  @apply text-white font-bold text-base
-    /* md:text-sm */
-    /* xl:text-base; */;
-}
-
-.TextB {
-  @apply text-gray-500 mt-1 text-base
-    /* md:text-[13px] md:mt-1 */
-    /* xl:text-base xl:mt-2; */;
-}
-
-/* // */
-
 .ExperinceCardWrap {
-  @apply flex flex-col relative justify-center items-center w-[400px] h-[256px]  px-6 rounded-lg space-y-6 bg-[#141517] shadow-[inset_0_0_9px_#343443];
+  @apply flex flex-col relative justify-center items-center w-[400px] h-[256px] pc:w-[500px] pc:h-[350px] hd:w-[650px] hd:h-[450px] px-6 pc:px-12 rounded-lg space-y-6 bg-[#141517] shadow-[inset_0_0_9px_#343443];
 }
 
 .ExperinceCardWrap {
-  @apply flex flex-col items-center justify-center space-y-6;
+  @apply flex flex-col items-center justify-center space-y-6 hd:space-y-8;
 }
 
 .ExperinceCardTitle {
-  @apply text-base font-bold text-white;
+  @apply text-base font-bold text-white pc:text-xl hd:text-3xl;
 }
 
 .ExperinceCardContent {
-  @apply text-[#BCBCBC] text-base leading-7;
+  @apply text-[#BCBCBC] text-base leading-7 pc:text-xl pc:leading-8 hd:text-3xl hd:leading-[2.7rem];
 }
