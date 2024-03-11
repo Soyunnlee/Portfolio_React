@@ -87,7 +87,7 @@ function Experince(props) {
               <div class='absolute top-[-6rem] left-[-5rem]'>
                 <img src={tape5} alt='' class='w-52' />
               </div>
-              <div class='bg-red-900 w-1 h-1 absolute bottom-0 right-1'></div>
+              <div class='w-1 h-1 absolute bottom-0 right-1'></div>
             </div>
           </div>
         </Flip>
