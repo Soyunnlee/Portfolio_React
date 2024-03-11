@@ -7,21 +7,24 @@ import Notion from '../assets/images/Notion.png';
 
 function Contact(props) {
   return (
-    <div className='flex items-end justify-between pb-10 bg-black' id='3'>
-      <span class='block text-sm text-gray-500 sm:text-center dark:text-gray-400 pl-10'>
+    <div
+      className='flex items-end justify-between pb-10 bg-black hd:pb-16'
+      id='3'
+    >
+      <span class='block text-sm text-gray-500 sm:text-center dark:text-gray-400 pl-10 hd:text-xl '>
         Copyrigth©2024 | Lee soyun.All rights reserved.
       </span>
       <div className='flex items-start justify-end pr-32 space-x-9'>
         {/* Contect Btn */}
         <a href='https://github.com/Soyunnlee' target='href'>
           <div class='ContectBtn'>
-            <img src={GitHub} alt='' class='w-7' />
+            <img src={GitHub} alt='' class='w-7 hd:w-14' />
           </div>
         </a>
         {/* Tistory */}
         <a href='https://soyun-s.tistory.com/' target='href'>
           <div class='ContectBtn'>
-            <img src={Tistory} alt='' class='w-6' />
+            <img src={Tistory} alt='' class='w-6 hd:w-11' />
           </div>
         </a>
         {/* Notion */}
@@ -30,7 +33,7 @@ function Contact(props) {
           target='href'
         >
           <div class='ContectBtn'>
-            <img src={Notion} alt='' class='w-6' />
+            <img src={Notion} alt='' class='w-6 hd:w-11' />
           </div>
         </a>
       </div>

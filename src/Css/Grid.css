@@ -50,13 +50,7 @@
 }
 
 /* Contact */
-.ContactWrap {
-  @apply h-[89vh] pt-[23%] flex items-center
-   /* Tablet */
-   md:h-[66vh] md:pt-[10%]
-   xl:h-screen xl:pt-[5%];
-}
 
 .ContectBtn {
-  @apply w-14 h-14 rounded-full border-[0.2rem] border-[#2C2C2C] flex items-center justify-center;
+  @apply w-14 h-14 hd:w-28 hd:h-28 rounded-full border-[0.2rem] border-[#2C2C2C] flex items-center justify-center;
 }
