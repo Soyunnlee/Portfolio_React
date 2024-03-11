@@ -56,3 +56,7 @@
    md:h-[66vh] md:pt-[10%]
    xl:h-screen xl:pt-[5%];
 }
+
+.ContectBtn {
+  @apply w-14 h-14 rounded-full border-[0.2rem] border-[#2C2C2C] flex items-center justify-center;
+}

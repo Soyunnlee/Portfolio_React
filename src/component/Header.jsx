@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import classNames from 'classnames';
 import Logo from '../assets/images/Logo.png';
 
-const menu = ['Home', 'WebSite', 'Experince', 'Contact'];
+const menu = ['Home', 'WebSite', 'Experince', 'Contect'];
 
 function Header(props) {
   const [activeNum, setActiveNum] = React.useState(0);
@@ -103,7 +103,7 @@ function Header(props) {
               </li> */}
               <li class='dropdown-item MobileListItm'>
                 <Link to='3' spy smooth>
-                  Contact
+                  Contect
                 </Link>
               </li>
             </ul>
