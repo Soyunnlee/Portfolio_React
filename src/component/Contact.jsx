@@ -12,7 +12,7 @@ function Contact(props) {
       id='3'
     >
       <span class='block text-sm text-gray-500 sm:text-center dark:text-gray-400 pl-10 hd:text-xl '>
-        Copyrigth©2024 | Lee soyun.All rights reserved.
+        Copyrigth | Lee soyun.All rights reserved.
       </span>
       <div className='flex items-start justify-end pr-32 space-x-9'>
         {/* Contect Btn */}
