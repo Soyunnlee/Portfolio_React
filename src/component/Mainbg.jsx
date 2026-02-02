@@ -28,7 +28,7 @@ const Mainbg = () => {
           Style='background: linear-gradient(45deg, #191932, #0C0C18);'
         >
           <div class='text-white w-full pl-4 pc:text-xl pc:pl-6 hd:pl-9 hd:text-3xl'>
-            Designer.
+            Design.
           </div>
 
           <div class=' h-full flex items-end'>
